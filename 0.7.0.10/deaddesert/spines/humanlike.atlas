@@ -1,0 +1,62 @@
+
+humanlike.png
+size: 330,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backpack
+  rotate: true
+  xy: 234, 73
+  size: 67, 45
+  orig: 67, 45
+  offset: 0, 0
+  index: -1
+bigflash1
+  rotate: true
+  xy: 2, 2
+  size: 138, 194
+  orig: 152, 212
+  offset: 7, 9
+  index: -1
+body
+  rotate: false
+  xy: 234, 2
+  size: 40, 69
+  orig: 40, 69
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 198, 7
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 276, 16
+  size: 47, 55
+  orig: 47, 55
+  offset: 0, 0
+  index: -1
+mask
+  rotate: false
+  xy: 281, 93
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+sgshell
+  rotate: true
+  xy: 216, 11
+  size: 13, 5
+  orig: 13, 5
+  offset: 0, 0
+  index: -1
+shotgun
+  rotate: true
+  xy: 198, 26
+  size: 114, 34
+  orig: 114, 34
+  offset: 0, 0
+  index: -1
