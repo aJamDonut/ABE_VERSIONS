@@ -1,0 +1,55 @@
+
+snapper.png
+size: 142,68
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bottom
+  rotate: true
+  xy: 122, 19
+  size: 21, 14
+  orig: 21, 14
+  offset: 0, 0
+  index: -1
+jawbottom
+  rotate: false
+  xy: 2, 2
+  size: 67, 37
+  orig: 67, 37
+  offset: 0, 0
+  index: -1
+leaf1
+  rotate: true
+  xy: 71, 11
+  size: 28, 13
+  orig: 28, 13
+  offset: 0, 0
+  index: -1
+leaf2
+  rotate: false
+  xy: 122, 8
+  size: 18, 9
+  orig: 18, 9
+  offset: 0, 0
+  index: -1
+top
+  rotate: true
+  xy: 88, 5
+  size: 61, 32
+  orig: 61, 32
+  offset: 0, 0
+  index: -1
+vine
+  rotate: true
+  xy: 2, 41
+  size: 25, 84
+  orig: 25, 84
+  offset: 0, 0
+  index: -1
+woosh
+  rotate: false
+  xy: 122, 42
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
