@@ -1,0 +1,48 @@
+
+aim_hands.png
+size: 100,266
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bigflash2
+  rotate: true
+  xy: 39, 50
+  size: 140, 27
+  orig: 152, 27
+  offset: 3, 0
+  index: -1
+hand
+  rotate: false
+  xy: 2, 2
+  size: 18, 18
+  orig: 64, 64
+  offset: 24, 23
+  index: -1
+handgun
+  rotate: false
+  xy: 39, 12
+  size: 54, 36
+  orig: 128, 128
+  offset: 37, 46
+  index: -1
+longgun
+  rotate: true
+  xy: 2, 22
+  size: 168, 35
+  orig: 192, 64
+  offset: 12, 10
+  index: -1
+melee
+  rotate: true
+  xy: 68, 78
+  size: 112, 16
+  orig: 128, 64
+  offset: 8, 24
+  index: -1
+xbow
+  rotate: true
+  xy: 2, 192
+  size: 72, 96
+  orig: 128, 128
+  offset: 28, 16
+  index: -1
