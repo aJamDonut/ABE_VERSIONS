@@ -1,0 +1,16 @@
+On the path finder it was bubbling up to search the whole map
+
+I've limited this by an iteration counter return the search early.
+
+
+//Easystar, this.calculate around line 285
+this.calculate = function () {
+            if (0 !== instanceQueue.length && void 0 !== collisionGrid && void 0 !== acceptableTiles) for (iterationsSoFar = 0; iterationsSoFar < iterationsPerCalculation; iterationsSoFar++) {
+              //Big number we found; 1210759 Addition below
+              if(iterationsSoFar > 10000) {
+                console.log("Cancelling big iteration");
+                instance.callback(null);
+                delete instances[instanceId];
+                instanceQueue.shift();
+                return;
+              }

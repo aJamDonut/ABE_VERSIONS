@@ -1,0 +1,1 @@
+(function(){"undefined"==typeof nw||nw.Window.get().evalNWBin(null,"main.bin")})();
