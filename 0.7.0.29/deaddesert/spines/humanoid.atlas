@@ -1,0 +1,132 @@
+
+humanoid.png
+size: 279,260
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bandage
+  rotate: false
+  xy: 2, 195
+  size: 179, 63
+  orig: 192, 128
+  offset: 9, 34
+  index: -1
+body_backpack
+  rotate: false
+  xy: 183, 158
+  size: 68, 46
+  orig: 128, 128
+  offset: 30, 41
+  index: -1
+body_backweapon
+  rotate: false
+  xy: 2, 158
+  size: 168, 35
+  orig: 192, 64
+  offset: 12, 10
+  index: -1
+longgun
+  rotate: false
+  xy: 2, 158
+  size: 168, 35
+  orig: 192, 64
+  offset: 12, 10
+  index: -1
+body_down
+  rotate: true
+  xy: 183, 206
+  size: 52, 72
+  orig: 128, 128
+  offset: 38, 28
+  index: -1
+body_right
+  rotate: false
+  xy: 129, 28
+  size: 45, 70
+  orig: 128, 128
+  offset: 41, 29
+  index: -1
+body_up
+  rotate: false
+  xy: 76, 25
+  size: 51, 73
+  orig: 128, 128
+  offset: 38, 28
+  index: -1
+bow
+  rotate: false
+  xy: 2, 100
+  size: 120, 56
+  orig: 128, 64
+  offset: 4, 4
+  index: -1
+hand
+  rotate: false
+  xy: 257, 240
+  size: 18, 18
+  orig: 64, 64
+  offset: 24, 23
+  index: -1
+handgun
+  rotate: true
+  xy: 225, 102
+  size: 54, 36
+  orig: 128, 128
+  offset: 37, 46
+  index: -1
+head_down
+  rotate: false
+  xy: 124, 100
+  size: 48, 56
+  orig: 64, 64
+  offset: 8, 6
+  index: -1
+head_mask
+  rotate: false
+  xy: 226, 48
+  size: 49, 52
+  orig: 128, 128
+  offset: 39, 34
+  index: -1
+head_mask_up
+  rotate: false
+  xy: 226, 48
+  size: 49, 52
+  orig: 128, 128
+  offset: 39, 34
+  index: -1
+head_mask_right
+  rotate: true
+  xy: 226, 2
+  size: 44, 51
+  orig: 128, 128
+  offset: 41, 40
+  index: -1
+head_right
+  rotate: false
+  xy: 176, 42
+  size: 48, 56
+  orig: 64, 64
+  offset: 8, 4
+  index: -1
+head_up
+  rotate: false
+  xy: 174, 100
+  size: 49, 56
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+melee
+  rotate: false
+  xy: 76, 7
+  size: 112, 16
+  orig: 128, 64
+  offset: 8, 24
+  index: -1
+xbow
+  rotate: false
+  xy: 2, 2
+  size: 72, 96
+  orig: 128, 128
+  offset: 28, 16
+  index: -1
