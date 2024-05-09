@@ -1,0 +1,4526 @@
+
+.btn_blank_sqr {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/editor.png') -0px -0px;
+}
+
+
+.icon_play {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/') -0px -0px;
+}
+
+
+.play_icon {
+	display: block;
+	zoom: 0.25;
+	width: 100px;
+	height: 100px;
+	background: url('../png/whiteIcons.png') -200px -300px;
+}
+
+
+.save_icon {
+	display: block;
+	zoom: 0.25;
+	width: 100px;
+	height: 100px;
+	background: url('../png/whiteIcons.png') -200px -200px;
+}
+
+
+.sprite_shotty {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -0px;
+}
+
+
+.weapon_handgun {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/weapons.png') -256px -128px;
+}
+
+
+.test_katana {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -448px;
+}
+
+
+.test_xbow {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/weapons.png') -0px -256px;
+}
+
+
+.wep_crossbow_2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/weapons.png') -128px -256px;
+}
+
+
+.item_bounty {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -64px -0px;
+}
+
+
+.item_codec {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -0px -0px;
+}
+
+
+.uiicon_degraded {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -0px -0px;
+}
+
+
+.uiicon_highquality {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -64px -0px;
+}
+
+
+.uiicon_masterwork {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -128px -0px;
+}
+
+
+.uiicon_legendary {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -192px -0px;
+}
+
+
+.item_sevhead {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -192px -0px;
+}
+
+
+.wi_oil_barrel {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -0px -0px;
+}
+
+
+.mask_thejester {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -0px -128px;
+}
+
+
+.mask_junkdroid {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -128px -128px;
+}
+
+
+.mask_gasmask {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -256px -128px;
+}
+
+
+.body_camo {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -128px -256px;
+}
+
+
+.body_smoker {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -256px -256px;
+}
+
+
+.bodydown_medical {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -0px -256px;
+}
+
+
+.test_sabre {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -384px;
+}
+
+
+.mask_thejesterright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -384px -128px;
+}
+
+
+.mask_junkdroidright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -512px -128px;
+}
+
+
+.mask_gasmaskright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -640px -128px;
+}
+
+
+.body_medical {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -0px -256px;
+}
+
+
+.body_nakedright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -512px -384px;
+}
+
+
+.body_smokerright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -256px -384px;
+}
+
+
+.body_camoright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -128px -384px;
+}
+
+
+.body_medicalup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -0px -512px;
+}
+
+
+.body_smokerup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -256px -512px;
+}
+
+
+.body_camoup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -128px -512px;
+}
+
+
+.mask_plainmask {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -768px -0px;
+}
+
+
+.mask_throwbackmask {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -896px -0px;
+}
+
+
+.mask_sunglasses {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1024px -0px;
+}
+
+
+.mask_plainmaskright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -768px -128px;
+}
+
+
+.mask_throwbackmaskright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -896px -128px;
+}
+
+
+.mask_sunglassesright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1024px -128px;
+}
+
+
+.weapon_scorp {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/weapons.png') -128px -128px;
+}
+
+
+.blank {
+	display: block;
+	zoom: 0.25;
+	width: 1px;
+	height: 1px;
+	background: url('../png/weapons.png') -0px -0px;
+}
+
+
+.blankright {
+	display: block;
+	zoom: 0.25;
+	width: 1px;
+	height: 1px;
+	background: url('../png/weapons.png') -0px -0px;
+}
+
+
+.mask_failedclone {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1152px -0px;
+}
+
+
+.mask_failedcloneright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1152px -128px;
+}
+
+
+.backpack_small {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -128px -192px;
+}
+
+
+.backpack_large {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -256px -192px;
+}
+
+
+.container_2 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 128px;
+	background: url('../png/worlditems.png') -128px -0px;
+}
+
+
+.container_2_light {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -0px -768px;
+}
+
+
+.lightcookie_oval {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/effects.png') -0px -512px;
+}
+
+
+.lightcookie_oval_B {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/effects.png') -128px -512px;
+}
+
+
+.mask_party {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1280px -0px;
+}
+
+
+.mask_partyright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1280px -128px;
+}
+
+
+.lightbluesheencolumn {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 320px;
+	background: url('../png/effects.png') -256px -704px;
+}
+
+
+.lightbluesheencolumn_black {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 256px;
+	background: url('../png/effects.png') -128px -768px;
+}
+
+
+.item_holder {
+	display: block;
+	zoom: 0.25;
+	width: 32px;
+	height: 32px;
+	background: url('../png/worlditems.png') -0px -192px;
+}
+
+
+.lightgreen_screen {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/effects.png') -0px -640px;
+}
+
+
+.lightgreen_screenwhite {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/effects.png') -128px -640px;
+}
+
+
+.ss_supercomputer {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/labitems.png') -640px -0px;
+}
+
+
+.w_emptyclonepod {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 320px;
+	background: url('../png/labitems.png') -1088px -0px;
+}
+
+
+.w_server1 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/labitems.png') -640px -576px;
+}
+
+
+.w_server2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/labitems.png') -768px -576px;
+}
+
+
+.w_labclonebed {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 256px;
+	background: url('../png/labitems.png') -192px -768px;
+}
+
+
+.w_labmedtray {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 128px;
+	background: url('../png/labitems.png') -320px -768px;
+}
+
+
+.camera_white {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -640px -1024px;
+}
+
+
+.lab_suit_1 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -0px -1792px;
+}
+
+
+.lab_suit_2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -128px -1792px;
+}
+
+
+.lab_fireex {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -384px -1024px;
+}
+
+
+.lab_mirror {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -576px -1600px;
+}
+
+
+.lab_mirror_cracked {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -576px -1728px;
+}
+
+
+.lab_tapsink {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -704px -1600px;
+}
+
+
+.lab_sink {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -832px -1600px;
+}
+
+
+.lab_ivdrip {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/labitems.png') -960px -1664px;
+}
+
+
+.lab_quar_sign {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/labitems.png') -1088px -1216px;
+}
+
+
+.lab_quar_smsign {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -1408px -1280px;
+}
+
+
+.lab_bodybag {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/labitems.png') -256px -1600px;
+}
+
+
+.lab_bodybagwrap {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -384px -1664px;
+}
+
+
+.camera_whitebroke {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -512px -1024px;
+}
+
+
+.w_whitetable {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 256px;
+	background: url('../png/labitems.png') -0px -1280px;
+}
+
+
+.w_handscanner {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/labitems.png') -1024px -768px;
+}
+
+
+.w_whitechairright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -0px -1088px;
+}
+
+
+.w_whitechairleft {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -128px -1088px;
+}
+
+
+.w_whitestool {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -256px -1088px;
+}
+
+
+.effect_blood1 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/effects.png') -512px -64px;
+}
+
+
+.effect_blood2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/effects.png') -512px -128px;
+}
+
+
+.effect_blood3 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/effects.png') -576px -192px;
+}
+
+
+.lab_securedoor {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -384px -1408px;
+}
+
+
+.icon_stance_crouch {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/ui.png') -0px -0px;
+}
+
+
+.icon_stance_walk {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/ui.png') -64px -0px;
+}
+
+
+.icon_stance_run {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/ui.png') -128px -0px;
+}
+
+
+.icon_shoot_sniper {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/ui.png') -0px -64px;
+}
+
+
+.icon_shoot_spray {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/ui.png') -64px -64px;
+}
+
+
+.icon_shoot_balance {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/ui.png') -128px -64px;
+}
+
+
+.body_naked {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -512px -256px;
+}
+
+
+.body_nakedup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -512px -512px;
+}
+
+
+.brain_clone_1 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -320px -0px;
+}
+
+
+.ss_radsuit2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -0px -1792px;
+}
+
+
+.ss_battery {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/labitems.png') -896px -960px;
+}
+
+
+.ss_battery_tall {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/labitems.png') -1088px -960px;
+}
+
+
+.w_weaponrack {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/labitems.png') -960px -1408px;
+}
+
+
+.ss_lightswitch {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/labitems.png') -448px -960px;
+}
+
+
+.ss_fridge_small {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -576px -1408px;
+}
+
+
+.ss_clock_broke {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -128px -1536px;
+}
+
+
+.ss_toilet {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -512px -1152px;
+}
+
+
+.ss_shower {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/labitems.png') -448px -1216px;
+}
+
+
+.ss_window {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/labitems.png') -576px -1536px;
+}
+
+
+.ss_kitch_sink {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 128px;
+	background: url('../png/labitems.png') -640px -1152px;
+}
+
+
+.ss_skele_cattle {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 128px;
+	background: url('../png/labitems.png') -1792px -1216px;
+}
+
+
+.ss_sign_landzo {
+	display: block;
+	zoom: 0.25;
+	width: 448px;
+	height: 320px;
+	background: url('../png/labitems.png') -1600px -1344px;
+}
+
+
+.body_sin_1 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -768px -256px;
+}
+
+
+.body_medicalright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -0px -384px;
+}
+
+
+.body_sin_1right {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -768px -384px;
+}
+
+
+.body_sin_1_up {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -768px -512px;
+}
+
+
+.projectile_simple {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -512px -448px;
+}
+
+
+.projectile_arrow {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -512px -512px;
+}
+
+
+.sprite_rockformation_1 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/geoflora.png') -192px -192px;
+}
+
+
+.sprite_boulder_1 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/geoflora.png') -0px -192px;
+}
+
+
+.sprite_dragonplant_a {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/geoflora.png') -0px -0px;
+}
+
+
+.sprite_dragonplant_c {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/geoflora.png') -192px -0px;
+}
+
+
+.sprite_deviltongue_a {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/geoflora.png') -384px -0px;
+}
+
+
+.sprite_deviltongue_c {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/geoflora.png') -576px -0px;
+}
+
+
+.sprite_barricade_h {
+	display: block;
+	zoom: 0.25;
+	width: 448px;
+	height: 192px;
+	background: url('../png/worlditems.png') -0px -704px;
+}
+
+
+.sprite_barricade_v {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 448px;
+	background: url('../png/worlditems.png') -448px -448px;
+}
+
+
+.sprite_sandbags_h {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 128px;
+	background: url('../png/worlditems.png') -128px -320px;
+}
+
+
+.sprite_sandbags_v {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 256px;
+	background: url('../png/worlditems.png') -384px -448px;
+}
+
+
+.sprite_black_barrel {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -0px -320px;
+}
+
+
+.sprite_wood_table_h {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/worlditems.png') -512px -0px;
+}
+
+
+.sprite_wood_table_v {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 256px;
+	background: url('../png/worlditems.png') -768px -256px;
+}
+
+
+.sprite_wood_chair_l {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -768px -0px;
+}
+
+
+.sprite_wood_chair_r {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -896px -0px;
+}
+
+
+.sprite_wood_stool {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -768px -128px;
+}
+
+
+.sprite_wood_bookcase {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/worlditems.png') -640px -192px;
+}
+
+
+.mask_staff {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1408px -0px;
+}
+
+
+.mask_staffright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1408px -128px;
+}
+
+
+.mask_eyescanner {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1536px -0px;
+}
+
+
+.mask_eyescannerright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1536px -128px;
+}
+
+
+.mask_docoscope {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1664px -0px;
+}
+
+
+.mask_docoscoperight {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1664px -128px;
+}
+
+
+.mask_bandana {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1792px -0px;
+}
+
+
+.mask_bandanaright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1792px -128px;
+}
+
+
+.mask_rancher {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1920px -0px;
+}
+
+
+.mask_rancherright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1920px -128px;
+}
+
+
+.body_gray {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -640px -256px;
+}
+
+
+.body_grayright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -640px -384px;
+}
+
+
+.body_platemail {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -384px -256px;
+}
+
+
+.body_platemailright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -384px -384px;
+}
+
+
+.body_clonejacket {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -896px -256px;
+}
+
+
+.body_clonejacketright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -896px -384px;
+}
+
+
+.body_clonejacketup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -896px -512px;
+}
+
+
+.body_clonejacket2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1024px -256px;
+}
+
+
+.body_clonejacket2right {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1024px -384px;
+}
+
+
+.body_clonejacket2up {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1024px -512px;
+}
+
+
+.body_cloneshirt {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1152px -256px;
+}
+
+
+.body_cloneshirtright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1152px -384px;
+}
+
+
+.body_cloneshirtup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1152px -512px;
+}
+
+
+.body_cloneshirt2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1280px -256px;
+}
+
+
+.body_cloneshirt2right {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1280px -384px;
+}
+
+
+.body_cloneshirt2up {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1280px -512px;
+}
+
+
+.body_rags {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1408px -256px;
+}
+
+
+.body_ragsright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1408px -384px;
+}
+
+
+.weapon_katana {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -448px;
+}
+
+
+.weapon_sabre {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -384px;
+}
+
+
+.wep_crossbow {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/weapons.png') -0px -256px;
+}
+
+
+.weapon_bow {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -128px;
+}
+
+
+.weapon_advancedbow {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -192px;
+}
+
+
+.item_brokenwatcher {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -0px -448px;
+}
+
+
+.item_laptop {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -128px -0px;
+}
+
+
+.item_mulch {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -64px -448px;
+}
+
+
+.item_cogs {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -128px -448px;
+}
+
+
+.item_olddisplay {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -192px -448px;
+}
+
+
+.item_sprigget {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -256px -448px;
+}
+
+
+.item_smartwatch {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -384px -448px;
+}
+
+
+.item_adhesive {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -640px -832px;
+}
+
+
+.item_extendyolife {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -0px -64px;
+}
+
+
+.item_ammoboxrifle {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -512px -448px;
+}
+
+
+.item_ammoboxhandgun {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -576px -448px;
+}
+
+
+.item_ammoboxshotgun {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -640px -448px;
+}
+
+
+.item_bonepile {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -704px -448px;
+}
+
+
+.sprite_craftbench2 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 256px;
+	background: url('../png/worlditems.png') -832px -768px;
+}
+
+
+.sprite_smallrecycler {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 128px;
+	background: url('../png/worlditems.png') -640px -768px;
+}
+
+
+.item_stonepile {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -832px -448px;
+}
+
+
+.weapon_pickaxe {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -512px;
+}
+
+
+.item_blueprint {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -64px -64px;
+}
+
+
+.body_sin_2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -0px -640px;
+}
+
+
+.body_sin_2right {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -0px -768px;
+}
+
+
+.body_sin_2up {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -0px -896px;
+}
+
+
+.mask_steamglasses {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -384px -0px;
+}
+
+
+.mask_steamglassesright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -384px -128px;
+}
+
+
+.mask_bandit_hatmask {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -512px -0px;
+}
+
+
+.mask_bandit_hatmaskright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -512px -128px;
+}
+
+
+.mask_deathspawneye {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -640px -0px;
+}
+
+
+.mask_deathspawneyeright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -640px -128px;
+}
+
+
+.mask_deathspawn {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -768px -0px;
+}
+
+
+.mask_deathspawnright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -768px -128px;
+}
+
+
+.body_tunic_1 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -128px -640px;
+}
+
+
+.body_tunic_2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -256px -640px;
+}
+
+
+.body_spacevader_1 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -384px -640px;
+}
+
+
+.body_tunic_1right {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -128px -768px;
+}
+
+
+.body_tunic_2right {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -256px -768px;
+}
+
+
+.body_spacevader_1right {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -384px -768px;
+}
+
+
+.body_tunic_1up {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -128px -896px;
+}
+
+
+.body_tunic_2up {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -256px -896px;
+}
+
+
+.body_spacevader_1up {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -384px -896px;
+}
+
+
+.container_5 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -128px -448px;
+}
+
+
+.container_4 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 128px;
+	background: url('../png/worlditems.png') -0px -576px;
+}
+
+
+.item_black_wings {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -512px -192px;
+}
+
+
+.sprite_door_jail {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -0px -896px;
+}
+
+
+.sprite_door_wooden {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -128px -896px;
+}
+
+
+.sprite_sign_wooden {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 128px;
+	background: url('../png/worlditems.png') -256px -896px;
+}
+
+
+.sprite_sign_road {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 128px;
+	background: url('../png/worlditems.png') -256px -1024px;
+}
+
+
+.sprite_sign_roadlegs {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/worlditems.png') -0px -1024px;
+}
+
+
+.btn_blank_sqr2 {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/editor.png') -64px -0px;
+}
+
+
+.btn_blank_sqr3 {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/editor.png') -128px -0px;
+}
+
+
+.ss_crafter_brain {
+	display: block;
+	zoom: 0.25;
+	width: 384px;
+	height: 256px;
+	background: url('../png/labitems.png') -1280px -640px;
+}
+
+
+.projectile_melee {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -512px -576px;
+}
+
+
+.projectile_grenade_blue {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -576px -576px;
+}
+
+
+.effect_text_miss {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/effects.png') -320px -640px;
+}
+
+
+.projectile_kunai {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -576px -448px;
+}
+
+
+.projectile_shuriken {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -640px -512px;
+}
+
+
+.sprite_old_shotgun {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -64px;
+}
+
+
+.weapon_baton {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -128px -384px;
+}
+
+
+.weapon_stick {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -128px -512px;
+}
+
+
+.sprite_rifle {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 64px;
+	background: url('../png/weapons.png') -192px -0px;
+}
+
+
+.weapon_kunai {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/weapons.png') -384px -128px;
+}
+
+
+.weapon_sawnoff {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/weapons.png') -640px -128px;
+}
+
+
+.weapon_shuriken {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/weapons.png') -512px -128px;
+}
+
+
+.sprite_big_slicer {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 128px;
+	background: url('../png/weapons.png') -0px -576px;
+}
+
+
+.sprite_tree_redfern {
+	display: block;
+	zoom: 0.25;
+	width: 320px;
+	height: 320px;
+	background: url('../png/worlditems.png') -0px -1216px;
+}
+
+
+.sprite_tree_yellowfern {
+	display: block;
+	zoom: 0.25;
+	width: 320px;
+	height: 320px;
+	background: url('../png/worlditems.png') -0px -1536px;
+}
+
+
+.sprite_tree_redfernsmalld {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/worlditems.png') -320px -1216px;
+}
+
+
+.sprite_tree_bluefernsmalld {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/worlditems.png') -320px -1408px;
+}
+
+
+.sprite_tree_redfernsmall {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/worlditems.png') -320px -1600px;
+}
+
+
+.sprite_campfire {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -960px -640px;
+}
+
+
+.sprite_training_dummy {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/worlditems.png') -960px -448px;
+}
+
+
+.sprite_waterpump {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1088px -640px;
+}
+
+
+.sprite_waterpump_broken {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1088px -832px;
+}
+
+
+.sprite_bed_shaded {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1088px -256px;
+}
+
+
+.sprite_bed {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 128px;
+	background: url('../png/worlditems.png') -768px -512px;
+}
+
+
+.sprite_pipe {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 64px;
+	background: url('../png/worlditems.png') -896px -1088px;
+}
+
+
+.sprite_pipe_2 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 64px;
+	background: url('../png/worlditems.png') -1088px -1088px;
+}
+
+
+.sprite_pipe_3 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 64px;
+	background: url('../png/worlditems.png') -1088px -1152px;
+}
+
+
+.sprite_solar_small {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 128px;
+	background: url('../png/worlditems.png') -1344px -1088px;
+}
+
+
+.sprite_solar_large {
+	display: block;
+	zoom: 0.25;
+	width: 320px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1024px -1216px;
+}
+
+
+.uicolor_3 {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -128px -0px;
+}
+
+
+.uicolor_4 {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -192px -0px;
+}
+
+
+.uicolor_1 {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -0px -0px;
+}
+
+
+.uicolor_2 {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -64px -0px;
+}
+
+
+.sprite_pocketclone {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -0px -320px;
+}
+
+
+.sprite_bandage_small {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -256px -512px;
+}
+
+
+.sprite_bandage_large {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/inventoryitems.png') -256px -576px;
+}
+
+
+.sprite_med_box {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/labitems.png') -0px -1920px;
+}
+
+
+.sprite_lots_o_grass {
+	display: block;
+	zoom: 0.25;
+	width: 448px;
+	height: 384px;
+	background: url('../png/worlditems.png') -512px -1664px;
+}
+
+
+.body_uglybug {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -0px -0px;
+}
+
+
+.body_uglybugright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -0px -128px;
+}
+
+
+.body_uglybugup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -0px -256px;
+}
+
+
+.body_skincrawler {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -128px -0px;
+}
+
+
+.body_skincrawlerright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -128px -128px;
+}
+
+
+.body_skincrawlerup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -128px -256px;
+}
+
+
+.sprite_lamppost_large {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 256px;
+	background: url('../png/worlditems.png') -1344px -0px;
+}
+
+
+.sprite_light_triangle {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 256px;
+	background: url('../png/effects.png') -448px -768px;
+}
+
+
+.cookie_light_triangle {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 256px;
+	background: url('../png/effects.png') -704px -768px;
+}
+
+
+.sprite_techlight {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -1152px -0px;
+}
+
+
+.sprite_world_map {
+	display: block;
+	zoom: 0.25;
+	width: 999px;
+	height: 999px;
+	background: url('../png/map.png') -0px -0px;
+}
+
+
+.sprite_texture_scuff {
+	display: block;
+	zoom: 0.25;
+	width: 799px;
+	height: 799px;
+	background: url('../png/textures/scuff.png') -0px -0px;
+}
+
+
+.tex_skulls_1 {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/skull.png') -0px -0px;
+}
+
+
+.tex_blood_splat {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/splat.png') -0px -0px;
+}
+
+
+.container_2_lightred {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/effects.png') -0px -960px;
+}
+
+
+.sprite_keycard_orange {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -128px -128px;
+}
+
+
+.tex_log_1 {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/log.png') -0px -0px;
+}
+
+
+.sprite_deviltongue_item {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -0px -512px;
+}
+
+
+.weapon_hatchet_stone {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -128px -448px;
+}
+
+
+.weapon_sickle_stone {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -256px -448px;
+}
+
+
+.sprite_log_item {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -0px -640px;
+}
+
+
+.sprite_lavalamp_ball {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/effects.png') -256px -0px;
+}
+
+
+.weapon_wooden_club {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -256px -512px;
+}
+
+
+.weapon_snarebow {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/weapons.png') -256px -256px;
+}
+
+
+.container_vault {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/worlditems.png') -448px -1024px;
+}
+
+
+.body_sucker {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -256px -0px;
+}
+
+
+.body_suckerright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -256px -128px;
+}
+
+
+.body_suckerup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -256px -256px;
+}
+
+
+.body_tick {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -384px -0px;
+}
+
+
+.body_tickright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -384px -128px;
+}
+
+
+.body_tickup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -384px -256px;
+}
+
+
+.sprite_hammer_wood {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -64px -576px;
+}
+
+
+.icon_build_spot {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/ui.png') -192px -0px;
+}
+
+
+.icon_cancel_spot {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/ui.png') -320px -0px;
+}
+
+
+.icon_destroy_spot {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/ui.png') -192px -128px;
+}
+
+
+.sprite_peacesign {
+	display: block;
+	zoom: 0.25;
+	width: 640px;
+	height: 384px;
+	background: url('../png/worlditems.png') -960px -1664px;
+}
+
+
+.sprite_yamalamppost {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 320px;
+	background: url('../png/worlditems.png') -1600px -1728px;
+}
+
+
+.sprite_yamashortpost {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1728px -1856px;
+}
+
+
+.sprite_yamabanzaipot {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -1856px -1920px;
+}
+
+
+.sprite_yamaplantbanzai1 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -256px -1856px;
+}
+
+
+.sprite_yamaplantbanzai2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -384px -1856px;
+}
+
+
+.sprite_yamapottedherbs {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -1856px -1664px;
+}
+
+
+.sprite_yamafreeherbs {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -1856px -1792px;
+}
+
+
+.effect_light_cookie_y {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/effects.png') -704px -512px;
+}
+
+
+.mask_farmerhat {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1280px -0px;
+}
+
+
+.mask_farmerhatright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1280px -128px;
+}
+
+
+.body_bluedress {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1536px -256px;
+}
+
+
+.body_bluedressright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1536px -384px;
+}
+
+
+.body_bluedressup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1536px -512px;
+}
+
+
+.body_pinkdress {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1664px -256px;
+}
+
+
+.body_pinkdressright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1664px -384px;
+}
+
+
+.body_pinkdressup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1664px -512px;
+}
+
+
+.mask_happymask {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1152px -0px;
+}
+
+
+.mask_happymaskright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1152px -128px;
+}
+
+
+.item_rarebackpack {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -128px -320px;
+}
+
+
+.effect_floor_shadow {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/effects.png') -384px -0px;
+}
+
+
+.sprite_tile_mudpatch {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/tileset.png') -1088px -384px;
+}
+
+
+.sprite_chair_matrix {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1536px -1024px;
+}
+
+
+.sprite_morphy {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -1728px -1088px;
+}
+
+
+.sprite_mirror {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1856px -1024px;
+}
+
+
+.mask_collector {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1408px -0px;
+}
+
+
+.mask_collectorright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1408px -128px;
+}
+
+
+.mask_robothead {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1536px -0px;
+}
+
+
+.mask_robotheadright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1536px -128px;
+}
+
+
+.mask_alexhead {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1664px -0px;
+}
+
+
+.mask_alexheadright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1664px -128px;
+}
+
+
+.body_techdress {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -128px -256px;
+}
+
+
+.body_techdressright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -128px -384px;
+}
+
+
+.body_techdressup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -128px -512px;
+}
+
+
+.body_royal {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -256px -256px;
+}
+
+
+.body_royalright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -256px -384px;
+}
+
+
+.body_royalup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -256px -512px;
+}
+
+
+.body_royalarmor {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -384px -256px;
+}
+
+
+.body_royalarmorright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -384px -384px;
+}
+
+
+.body_royalarmorup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -384px -512px;
+}
+
+
+.body_robot {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -512px -256px;
+}
+
+
+.body_robotright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -512px -384px;
+}
+
+
+.body_robotup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -512px -512px;
+}
+
+
+.sprite_pangoleaves {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -0px -576px;
+}
+
+
+.sprite_handgunhandle {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -0px -704px;
+}
+
+
+.sprite_receiver_longgun {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -128px -704px;
+}
+
+
+.sprite_skin {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -256px -704px;
+}
+
+
+.sprite_spider_eye {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -384px -704px;
+}
+
+
+.sprite_jyelo {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -512px -704px;
+}
+
+
+.sprite_composites {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -640px -704px;
+}
+
+
+.sprite_sinchip {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -768px -704px;
+}
+
+
+.sprite_stock_longgun {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -0px -832px;
+}
+
+
+.sprite_handgunbarrel {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -128px -832px;
+}
+
+
+.sprite_barrel_longgun {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -128px -896px;
+}
+
+
+.sprite_meat {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -256px -832px;
+}
+
+
+.sprite_meat_white {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -384px -832px;
+}
+
+
+.sprite_meat_cooked {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -512px -832px;
+}
+
+
+.sprite_gunpowder {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -768px -832px;
+}
+
+
+.sprite_bp_blue {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -448px -512px;
+}
+
+
+.sprite_bp_pink {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -512px -512px;
+}
+
+
+.sprite_bp_yellow {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -640px -512px;
+}
+
+
+.body_rags2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -0px -256px;
+}
+
+
+.body_rags2right {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -0px -384px;
+}
+
+
+.body_rags2up {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -0px -512px;
+}
+
+
+.sprite_codec_biology {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -128px -64px;
+}
+
+
+.sprite_bp_green {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -576px -512px;
+}
+
+
+.sprite_frontmenu_bg {
+	display: block;
+	zoom: 0.25;
+	width: 1920px;
+	height: 1080px;
+	background: url('../png/menu_bg.png') -0px -0px;
+}
+
+
+.sprite_logo {
+	display: block;
+	zoom: 0.25;
+	width: 800px;
+	height: 400px;
+	background: url('../png/logo.png') -0px -0px;
+}
+
+
+.sprite_bartop {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1664px -896px;
+}
+
+
+.sprite_bartopvert {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1856px -896px;
+}
+
+
+.sprite_item_plate {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -512px -576px;
+}
+
+
+.sprite_item_platesteak {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -640px -576px;
+}
+
+
+.sprite_item_bowl {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -768px -576px;
+}
+
+
+.sprite_item_bowlnoodles {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -896px -576px;
+}
+
+
+.sprite_item_cup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -896px -704px;
+}
+
+
+.sprite_item_cupbubbles {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -896px -832px;
+}
+
+
+.mask_spherehead {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1920px -0px;
+}
+
+
+.mask_sphereheadright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1920px -128px;
+}
+
+
+.body_robot_slim {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -640px -256px;
+}
+
+
+.body_robot_slimright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -640px -384px;
+}
+
+
+.body_robot_slimup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -640px -512px;
+}
+
+
+.mask_lokal {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1792px -0px;
+}
+
+
+.mask_lokalright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1792px -128px;
+}
+
+
+. {
+	display: block;
+	zoom: 0.25;
+	width: px;
+	height: px;
+	background: url('../png/') -0px -0px;
+}
+
+
+.mask_sphereheadup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid2.png') -1920px -128px;
+}
+
+
+.sprite_syringe {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -256px -320px;
+}
+
+
+.sprite_defaulthead {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/humanoid.png') -192px -0px;
+}
+
+
+.sprite_mapicon_winter {
+	display: block;
+	zoom: 0.25;
+	width: 80px;
+	height: 80px;
+	background: url('../png/map_icon_winter.png') -0px -0px;
+}
+
+
+.sprite_mapicon_ash {
+	display: block;
+	zoom: 0.25;
+	width: 80px;
+	height: 80px;
+	background: url('../png/map_icon_ash.png') -0px -0px;
+}
+
+
+.sprite_mapicon_desert {
+	display: block;
+	zoom: 0.25;
+	width: 80px;
+	height: 80px;
+	background: url('../png/map_icon_desert.png') -0px -0px;
+}
+
+
+.sprite_item_researchbook {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -832px -320px;
+}
+
+
+.sprite_craftingworkbench {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1536px -1024px;
+}
+
+
+.sprite_stonebench {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -1792px -1088px;
+}
+
+
+.sprite_buildingmaterial {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -384px -576px;
+}
+
+
+.sprite_vehicle_trashbike {
+	display: block;
+	zoom: 0.25;
+	width: 384px;
+	height: 256px;
+	background: url('../png/vehicles.png') -0px -0px;
+}
+
+
+.sprite_vehicle_skimmerbike {
+	display: block;
+	zoom: 0.25;
+	width: 384px;
+	height: 256px;
+	background: url('../png/vehicles.png') -0px -256px;
+}
+
+
+.sprite_vehicle_longpipebike {
+	display: block;
+	zoom: 0.25;
+	width: 384px;
+	height: 256px;
+	background: url('../png/vehicles.png') -0px -512px;
+}
+
+
+.sprite_vehicle_bikeup {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 256px;
+	background: url('../png/vehicles.png') -384px -0px;
+}
+
+
+.sprite_vehicle_bikedown {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 256px;
+	background: url('../png/vehicles.png') -576px -0px;
+}
+
+
+.weapon_rusty_katana {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -832px;
+}
+
+
+.weapon_skedeye_clipper {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -384px -832px;
+}
+
+
+.weapon_rusty_plank {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -896px;
+}
+
+
+.weapon_plank {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -128px -896px;
+}
+
+
+.weapon_reine_plank {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -256px -896px;
+}
+
+
+.weapon_roi_plank {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -384px -896px;
+}
+
+
+.weapon_rusty_redsword {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -0px -960px;
+}
+
+
+.weapon_redword {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -128px -960px;
+}
+
+
+.weapon_reinforced_redword {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -256px -960px;
+}
+
+
+.sprite_boomstick {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 64px;
+	background: url('../png/weapons.png') -192px -64px;
+}
+
+
+.sprite_rusty_boomstick {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 64px;
+	background: url('../png/weapons.png') -576px -64px;
+}
+
+
+.sprite_dubstick {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 64px;
+	background: url('../png/weapons.png') -384px -64px;
+}
+
+
+.sprite_rusty_dubstick {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 64px;
+	background: url('../png/weapons.png') -768px -64px;
+}
+
+
+.weapon_black_katana {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 64px;
+	background: url('../png/weapons.png') -256px -832px;
+}
+
+
+.sprite_sign_weapon_shop {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 128px;
+	background: url('../png/worlditems.png') -1792px -1408px;
+}
+
+
+.sprite_sign_armor_shop {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1600px -1408px;
+}
+
+
+.sprite_sign_junk_shop {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1408px -1408px;
+}
+
+
+.sprite_boulder_2 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/geoflora.png') -0px -384px;
+}
+
+
+.sprite_chembench {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/worlditems.png') -0px -128px;
+}
+
+
+.sprite_scrapbarrel {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -896px -128px;
+}
+
+
+.sprite_loom {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/worlditems.png') -1920px -1088px;
+}
+
+
+.sprite_smithy {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1728px -1216px;
+}
+
+
+.item_gazoline {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -768px -192px;
+}
+
+
+.item_computer_chip {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -896px -192px;
+}
+
+
+.item_rusty_metal {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -384px -320px;
+}
+
+
+.sprite_bp_gray {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -384px -512px;
+}
+
+
+.sprite_bp_red {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/inventoryitems.png') -704px -512px;
+}
+
+
+.item_weak_rope {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -896px -0px;
+}
+
+
+.sprite_sinbannerrip {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 256px;
+	background: url('../png/worlditems.png') -1792px -832px;
+}
+
+
+.sprite_sinbanner {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 256px;
+	background: url('../png/worlditems.png') -1920px -832px;
+}
+
+
+.sprite_sand {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems2.png') -0px -0px;
+}
+
+
+.sprite_redgem {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems2.png') -128px -0px;
+}
+
+
+.sprite_glass {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems2.png') -256px -0px;
+}
+
+
+.sprite_redbar {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems2.png') -384px -0px;
+}
+
+
+.sprite_sinstone {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems2.png') -512px -0px;
+}
+
+
+.sprite_roboeye {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems2.png') -640px -0px;
+}
+
+
+.sprite_mechscrap {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems2.png') -768px -0px;
+}
+
+
+.sprite_darkiron {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems2.png') -896px -0px;
+}
+
+
+.sprite_bedroll {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 128px;
+	background: url('../png/inventoryitems2.png') -0px -128px;
+}
+
+
+.sprite_bullettrail1 {
+	display: block;
+	zoom: 0.25;
+	width: 20px;
+	height: 5px;
+	background: url('../png/bullettrail1.png') -0px -0px;
+}
+
+
+.sprite_smelter {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 320px;
+	background: url('../png/worlditems.png') -320px -0px;
+}
+
+
+.btn_circle {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/editor.png') -0px -64px;
+}
+
+
+.btn_square {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/editor.png') -64px -64px;
+}
+
+
+.btn_brush {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/editor.png') -128px -64px;
+}
+
+
+.btn_fill {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/editor.png') -192px -64px;
+}
+
+
+.container_1 {
+	display: block;
+	zoom: 0.25;
+	width: 64px;
+	height: 64px;
+	background: url('../png/worlditems.png') -64px -0px;
+}
+
+
+.backpack_satchel {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/inventoryitems.png') -0px -192px;
+}
+
+
+.body_petibulb_1 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -512px -0px;
+}
+
+
+.body_petibulb_1right {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -512px -128px;
+}
+
+
+.body_petibulb_1up {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -512px -256px;
+}
+
+
+.body_petibulb_2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -640px -0px;
+}
+
+
+.body_petibulb_2right {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -640px -128px;
+}
+
+
+.body_petibulb_2up {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -640px -256px;
+}
+
+
+.body_petibulb_tree {
+	display: block;
+	zoom: 0.25;
+	width: 320px;
+	height: 256px;
+	background: url('../png/animalia_humanoid.png') -0px -576px;
+}
+
+
+.sprite_gentzero {
+	display: block;
+	zoom: 0.25;
+	width: 576px;
+	height: 320px;
+	background: url('../png/randompieces.png') -0px -0px;
+}
+
+
+.body_mantis_red {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mantis.png') -0px -0px;
+}
+
+
+.body_mantis_redright {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mantis.png') -0px -192px;
+}
+
+
+.body_mantis_redup {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mantis.png') -0px -384px;
+}
+
+
+.body_mantis_red2 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mantis.png') -256px -0px;
+}
+
+
+.body_mantis_red3 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mantis.png') -512px -0px;
+}
+
+
+.body_mantis_redright2 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mantis.png') -256px -192px;
+}
+
+
+.body_mantis_redright3 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mantis.png') -512px -192px;
+}
+
+
+.body_mantis_redup2 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mantis.png') -256px -384px;
+}
+
+
+.body_mantis_redup3 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mantis.png') -512px -384px;
+}
+
+
+.sprite_chomp_1 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/lilanims.png') -0px -0px;
+}
+
+
+.sprite_chomp_2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/lilanims.png') -128px -0px;
+}
+
+
+.sprite_chomp_3 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/lilanims.png') -256px -0px;
+}
+
+
+.sprite_chomp_4 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/lilanims.png') -384px -0px;
+}
+
+
+.body_uglybug_blue {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_spyder.png') -0px -0px;
+}
+
+
+.body_uglybug_blue2 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_spyder.png') -256px -0px;
+}
+
+
+.body_uglybug_blue3 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_spyder.png') -512px -0px;
+}
+
+
+.body_uglybug_blueright {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_spyder.png') -0px -192px;
+}
+
+
+.body_uglybug_blueright2 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_spyder.png') -256px -192px;
+}
+
+
+.body_uglybug_blueright3 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_spyder.png') -512px -192px;
+}
+
+
+.body_uglybug_blueup {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_spyder.png') -0px -384px;
+}
+
+
+.body_uglybug_blueup2 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_spyder.png') -256px -384px;
+}
+
+
+.body_uglybug_blueup3 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_spyder.png') -512px -384px;
+}
+
+
+.body_uglybug_bluedead {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_spyder.png') -0px -576px;
+}
+
+
+.body_mantis_reddead {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mantis.png') -0px -576px;
+}
+
+
+.sprite_display_earth {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1408px -832px;
+}
+
+
+.sprite_display_desert {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1536px -832px;
+}
+
+
+.sprite_display_ship {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 192px;
+	background: url('../png/worlditems.png') -1664px -832px;
+}
+
+
+.sprite_lockpicker {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 512px;
+	background: url('../png/ui.png') -0px -576px;
+}
+
+
+.sprite_lock {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/ui.png') -128px -576px;
+}
+
+
+.sprite_lock_unlocked {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 192px;
+	background: url('../png/ui.png') -320px -576px;
+}
+
+
+.sprite_lock_holder {
+	display: block;
+	zoom: 0.25;
+	width: 512px;
+	height: 256px;
+	background: url('../png/ui.png') -512px -512px;
+}
+
+
+.body_mechaspyder {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mechaspyder.png') -0px -0px;
+}
+
+
+.body_mechaspyder2 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mechaspyder.png') -256px -0px;
+}
+
+
+.body_mechaspyder3 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mechaspyder.png') -512px -0px;
+}
+
+
+.body_mechaspyderdead {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mechaspyder.png') -0px -576px;
+}
+
+
+.body_mechaspyderright {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mechaspyder.png') -0px -192px;
+}
+
+
+.body_mechaspyderright2 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mechaspyder.png') -256px -192px;
+}
+
+
+.body_mechaspyderright3 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mechaspyder.png') -512px -192px;
+}
+
+
+.body_mechaspyderup {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mechaspyder.png') -0px -384px;
+}
+
+
+.body_mechaspyderup2 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mechaspyder.png') -256px -384px;
+}
+
+
+.body_mechaspyderup3 {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/animalia_mechaspyder.png') -512px -384px;
+}
+
+
+.body_ragsup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -1408px -512px;
+}
+
+
+.body_sin_1up {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -768px -512px;
+}
+
+
+.body_grayup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/humanoid.png') -640px -512px;
+}
+
+
+.sprite_splicer {
+	display: block;
+	zoom: 0.25;
+	width: 256px;
+	height: 192px;
+	background: url('../png/labitems.png') -896px -384px;
+}
+
+
+.sprite_blackdiamond_1 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 320px;
+	background: url('../png/randompieces.png') -0px -448px;
+}
+
+
+.sprite_blackdiamond_2 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 320px;
+	background: url('../png/randompieces.png') -192px -448px;
+}
+
+
+.sprite_blackdiamond_3 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 320px;
+	background: url('../png/randompieces.png') -384px -448px;
+}
+
+
+.sprite_blackdiamond_4 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 320px;
+	background: url('../png/randompieces.png') -576px -448px;
+}
+
+
+.sprite_blackdiamond_5 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 320px;
+	background: url('../png/randompieces.png') -768px -448px;
+}
+
+
+.sprite_aimind_walt {
+	display: block;
+	zoom: 0.25;
+	width: 384px;
+	height: 512px;
+	background: url('../png/randompieces.png') -0px -768px;
+}
+
+
+.sprite_aimind_blu {
+	display: block;
+	zoom: 0.25;
+	width: 384px;
+	height: 512px;
+	background: url('../png/randompieces.png') -384px -768px;
+}
+
+
+.sprite_aimind_syd {
+	display: block;
+	zoom: 0.25;
+	width: 384px;
+	height: 512px;
+	background: url('../png/randompieces.png') -768px -768px;
+}
+
+
+.sprite_obsidian_struct {
+	display: block;
+	zoom: 0.25;
+	width: 384px;
+	height: 512px;
+	background: url('../png/randompieces.png') -0px -1280px;
+}
+
+
+.sprite_obsidian_struct_tri {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 256px;
+	background: url('../png/randompieces.png') -384px -1280px;
+}
+
+
+.sprite_obsidian_struct_min {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 256px;
+	background: url('../png/randompieces.png') -384px -1536px;
+}
+
+
+.sprite_blackdiamond_6 {
+	display: block;
+	zoom: 0.25;
+	width: 192px;
+	height: 320px;
+	background: url('../png/randompieces.png') -960px -448px;
+}
+
+
+.sprite_blackdiamond_small {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/randompieces.png') -576px -1280px;
+}
+
+
+.sprite_blackdiamond_small_2 {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/randompieces.png') -576px -1408px;
+}
+
+
+.body_yeuxball {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -768px -0px;
+}
+
+
+.body_yeuxballright {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -768px -128px;
+}
+
+
+.body_yeuxballup {
+	display: block;
+	zoom: 0.25;
+	width: 128px;
+	height: 128px;
+	background: url('../png/animalia_humanoid.png') -768px -256px;
+}
