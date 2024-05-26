@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Copyright Adam Dougherty 2020-2023. The assets and code appearing inside this document and any linking out from this document are owned by the developer Adam Dougherty (https://github.com/aJamDonut/) unless otherwise stated in their respective license. Distribution is strictly prohibited unless otherwise granted by the developer. -->
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="deaddesert/css/font.css" />
+		<link rel="stylesheet" type="text/css" href="deaddesert/css/css.css" />
+		<link rel="stylesheet" type="text/css" href="core/css/all.css" />
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	</head>
+
+	<body id="body" style="background-color: black">
+		<div id="overall-inputs">
+			<div id="keyboard-input">
+				<div class="inputContainer">
+					<div id="keyboard-input-title">Input some text...</div>
+					<input type="text" id="keyboard-input-component" />
+					<button id="keyboard-input-button-save">Save</button>
+					<button id="keyboard-input-button-cancel">Cancel</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Preload fonts with tags below -->
+
+		<div style="font-family: 'Bungee'" class="postLoadHide">.</div>
+		<div style="font-family: 'Handlee'" class="postLoadHide">.</div>
+		<div style="font-family: 'Damion'" class="postLoadHide">.</div>
+		<div style="font-family: 'Aldrich'" class="postLoadHide">.</div>
+		<div style="font-family: 'Mansalva'" class="postLoadHide">.</div>
+
+		<div id="loader" class="centered">
+			<h1>Loading please wait...</h1>
+		</div>
+		<div id="viewport">
+			<audio id="audio"></audio>
+			<!-- <div id="fullscreen" onClick="fs();">Fullscreen</div> -->
+		</div>
+
+		<script type="text/javascript">
+			module = {};
+
+			//Added during compilated, _SETTINGS
+			var ab_defaultLanguage = "deaddesert/js/languages/en.js";
+
+			function detectWebGLContext() {
+				var canvas = document.createElement("canvas");
+				var gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+				if (gl && gl instanceof WebGLRenderingContext) {
+					delete gl;
+					return true;
+					1;
+				} else {
+					delete gl;
+					return false;
+				}
+			}
+
+			function checkSupport() {
+				//Webworkers
+				if (typeof Worker !== "undefined") {
+					w = true;
+				} else {
+					w = false;
+				}
+				//Cookies
+				if (navigator.cookieEnabled) {
+					c = true;
+				} else {
+					c = false;
+				}
+				//WebGL
+				if (detectWebGLContext()) {
+					wg = true;
+				} else {
+					wg = true; //This is supposed to be false. But the game runs fine without WebGL.
+				}
+				return w && c && wg;
+			}
+
+			var _SETTINGS = {};
+			var game = {}; //Global game object
+			var bootStrap = []; //Functions which will run after the core has loaded (games plugin list)
+			var RENDER_WIDTH = document.documentElement.clientWidth;
+			var RENDER_HEIGHT = document.documentElement.clientHeight;
+			var _LANG = {};
+			window._version = "0.8.0.12";
+		</script>
+		
+<script type='text/javascript' src='lib/zepto/zepto.min.js' defer></script>
+<script type='text/javascript' src='lib/howler/howler.min.js' defer></script>
+<script type='text/javascript' src='lib/pixi/pixi.6.5.8.js' defer></script>
+<script type='text/javascript' src='lib/howler/howler.spatial.min.js' defer></script>
+<script type='text/javascript' src='lib/pixi/pixi-filters.js' defer></script>
+<script type='text/javascript' src='lib/pixi/viewport.min.js' defer></script>
+<script type='text/javascript' src='lib/pixi/pixi-layers.js' defer></script>
+<script type='text/javascript' src='lib/pixi/pixi-particles.min.js' defer></script>
+<script type='text/javascript' src='lib/createjs/tweenjs.js' defer></script>
+<script type='text/javascript' src='lib/pixi/pixi-spine.js' defer></script>
+<script type='text/javascript' src='lib/pixi/pixi-projection.min.js' defer></script>
+<script type='text/javascript' src='lib/socketio/socket.js' defer></script>
+<script type='text/javascript' src='lib/lzstring/lzstring.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/1-dev.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_tileset__join__BLUEPRINTS_createKey_TILESETS_bootstrap_false_createRoot_true.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/2-objects.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/3-audio.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_sprite__join__BLUEPRINTS_bootstrap_false_createKey_SPRITES.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_blueprint_recipe_join__BLUEPRINTS_bootstrap_false_createKey_RECIPES.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_ui__join__BLUEPRINTS_bootstrap_false_createKey_SCENES.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_modal__join__BLUEPRINTS_bootstrap_false_createKey_TUTORIALS.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_component__join__BLUEPRINTS_bootstrap_false_createKey_COMPONENTS.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_particles_join__BLUEPRINTS_bootstrap_false_createKey_PARTICLES.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_si_extension__join__BLUEPRINTS_bootstrap_false_createKey_SIMPLE_EXT_exclude_name.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_build__join__BLUEPRINTS_bootstrap_false_createKey_COMPLEX_ITEMS.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_spine__join__BLUEPRINTS_bootstrap_false_createKey_SPINES.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_species_join__BLUEPRINTS_bootstrap_false_createKey_SPECIES.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_spawners_join__BLUEPRINTS_bootstrap_false_createKey_SPAWNERS.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_factions_join__BLUEPRINTS_bootstrap_false_createKey_FACTIONS.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_ss__join__BLUEPRINTS_bootstrap_false_createKey_INV_ITEMS.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_textures__join__BLUEPRINTS_SPRITES.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_ani_all_join__BLUEPRINTS_ANIMATEDSPRITES_createRoot_true.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_dialogs__join__BLUEPRINTS_DIALOGS_createRoot_true.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_entity_extension_join__BLUEPRINTS_EXTENSIONS_createRoot_true.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_status_effects_client_join__BLUEPRINTS__STATUSES_bootstrap_false_createRoot_true.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/4-test.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/5-testspine.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/dd_bootstrap__bootstrap_true.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/6-loadbins.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/7-squaring.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/8-furni.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/9-playerfurni.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/10-playersquaring.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/11-playercancel.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/12-playerdestroy.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/13-godfurni.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/14-all.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/15-iteminfo.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/16-hud.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/17-bottommenu.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/18-buttons.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/19-select.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/20-various.js' defer></script>
+<script type='text/javascript' src='deaddesert/js/ddcache/21-devscripts.js' defer></script>
+
+<script type="module" src="core/js/init.js"></script>
+
+	</body>
+</html>
