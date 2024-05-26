@@ -1,0 +1,23 @@
+all
+---
+remove unused
+
+zepto
+------
+need building properly (min pkg) or removing
+
+using $() and $.getJSON
+
+also in addition to core: callback, deferred.
+
+
+pixi
+-----
+needs min version adding
+on getlocalbounds, added visble check
+Container.prototype.getLocalBounds
+  for (var i = 0, j = this.children.length; i < j; ++i) {
+                    if (this.children[i].visible) {
+                        this.children[i].updateTransform();
+                    }
+                }
