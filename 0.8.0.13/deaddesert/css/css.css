@@ -1,0 +1,242 @@
+body {
+    cursor: url('/ABE/deaddesert/png/cursor.png'), auto;
+}
+body:hover {
+    cursor: url('/ABE/deaddesert/png/cursor-over.png'), auto;
+}
+
+.game.tileset {background: url('../png/tileset.png');} .game.ui {background: url('../png/gui.png'); } .game.furni {background: url('../png/furni.png'); } .game.tileset, .game.furni, .game.ui {float: left;margin: 10px;display: block;} .game.flooring {background: url('../png/tileset.png');float: left;margin: 10px;display: block;}
+ .game.furni.changemachine {
+ background-position: calc(-64px*4) calc(-64px*0);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.furni.sunwars {
+ background-position: calc(-64px*0) calc(-64px*12);
+ width: 64px;
+ height: 128px;
+ /* blocks: 2 */
+ }
+ .game.furni.monkeykong {
+ background-position: calc(-64px*0) calc(-64px*22);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.furni.pacboy {
+ background-position: calc(-64px*0) calc(-64px*24);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.furni.fireball {
+ background-position: calc(-64px*0) calc(-64px*14);
+ width: 64px;
+ height: 128px;
+ /* blocks: 2 */
+ }
+ .game.furni.kiterider {
+ background-position: calc(-64px*4) calc(-64px*24);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.furni.piccolo {
+ background-position: calc(-64px*4) calc(-64px*17);
+ width: 64px;
+ height: 128px;
+ /* blocks: 2 */
+ }
+ .game.furni.oldgray {
+ background-position: calc(-64px*4) calc(-64px*19);
+ width: 64px;
+ height: 128px;
+ /* blocks: 2 */
+ }
+ .game.furni.unicorns {
+ background-position: calc(-64px*8) calc(-64px*19);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.furni.army {
+ background-position: calc(-64px*4) calc(-64px*26);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.furni.jupiter {
+ background-position: calc(-64px*4) calc(-64px*15);
+ width: 64px;
+ height: 128px;
+ /* blocks: 2 */
+ }
+ .game.furni.twinklezone {
+ background-position: calc(-64px*0) calc(-64px*16);
+ width: 64px;
+ height: 128px;
+ /* blocks: 2 */
+ }
+ .game.furni.bears {
+ background-position: calc(-64px*8) calc(-64px*17);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.furni.marleno {
+ background-position: calc(-64px*4) calc(-64px*28);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.furni.froggy {
+ background-position: calc(-64px*0) calc(-64px*26);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.furni.residentx {
+ background-position: calc(-64px*4) calc(-64px*22);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.furni.tabletennis {
+ background-position: calc(-64px*19) calc(-64px*3);
+ width: 128px;
+ height: 128px;
+ /* blocks: 5 */
+ }
+ .game.furni.pooltable {
+ background-position: calc(-64px*19) calc(-64px*1);
+ width: 128px;
+ height: 128px;
+ /* blocks: 5 */
+ }
+ .game.furni.airhockey {
+ background-position: calc(-64px*21) calc(-64px*1);
+ width: 128px;
+ height: 128px;
+ /* blocks: 5 */
+ }
+ .game.furni.tablefootball {
+ background-position: calc(-64px*21) calc(-64px*3);
+ width: 128px;
+ height: 128px;
+ /* blocks: 5 */
+ }
+ .game.furni.cinemaseat {
+ background-position: calc(-64px*8) calc(-64px*24);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.furni.cinemaspeaker {
+ background-position: calc(-64px*8) calc(-64px*25);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.furni.attackattack {
+ background-position: calc(-64px*34) calc(-64px*0);
+ width: 64px;
+ height: 64px;
+ /* blocks: 6 */
+ }
+ .game.furni.sunwars2 {
+ background-position: calc(-64px*34) calc(-64px*0);
+ width: 64px;
+ height: 64px;
+ /* blocks: 6 */
+ }
+ .game.furni.bearland {
+ background-position: calc(-64px*34) calc(-64px*0);
+ width: 64px;
+ height: 64px;
+ /* blocks: 6 */
+ }
+ .game.furni.cinemadesk {
+ background-position: calc(-64px*8) calc(-64px*22);
+ width: 64px;
+ height: 128px;
+ /* blocks: 2 */
+ }
+ .game.furni.atm {
+ background-position: calc(-64px*8) calc(-64px*2);
+ width: 64px;
+ height: 128px;
+ /* blocks: 4 */
+ }
+ .game.ui.os {
+ background-position: calc(-64px*25) calc(-64px*0);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.ui.build {
+ background-position: calc(-64px*17) calc(-64px*2);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.ui.suppliers {
+ background-position: calc(-64px*18) calc(-64px*3);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.ui.research {
+ background-position: calc(-64px*18) calc(-64px*4);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.ui.managerjobs {
+ background-position: calc(-64px*19) calc(-64px*4);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.ui.thoughts {
+ background-position: calc(-64px*23) calc(-64px*8);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.ui.rotate {
+ background-position: calc(-64px*17) calc(-64px*3);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.ui.pindown {
+ background-position: calc(-64px*23) calc(-64px*3);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.ui.pinup {
+ background-position: calc(-64px*24) calc(-64px*3);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.ui.hire {
+ background-position: calc(-64px*20) calc(-64px*3);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.ui.cash {
+ background-position: calc(-64px*25) calc(-64px*8);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
+ .game.ui.escmenu {
+ background-position: calc(-64px*19) calc(-64px*3);
+ width: 64px;
+ height: 64px;
+ /* blocks: 1 */
+ }
