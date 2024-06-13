@@ -1,0 +1,79 @@
+body {
+    background-color: white;
+    color: unset !important;
+}
+h1, h2, h3, h4 {
+    min-height: 30px;
+    line-height: 20px;
+}
+#mocha-links {
+width: 300px;
+
+background-color: white;
+position:absolute;
+z-index: 1000000000000000;
+float: right;
+right: 300px;
+}
+#mocha-stats {
+	background-color: white;
+	float: left;
+	right: unset;
+    position: fixed !important;
+}
+#mocha-report {
+    margin-top: 50px !important;
+}
+#mocha{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1000000000000;
+    overflow-y: scroll;
+    max-height: 100%;
+    width: 100%;
+    background-color: #ffffffa6;
+    margin: 0;
+}
+
+.passes em {
+    color: green !important;
+}
+.failures em {
+    color: red !important;
+}
+#mocha-stats {
+    background-color: white;
+    padding: 10px;
+    padding-top: 15px;
+}
+#mocha .test a.replay {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    text-decoration: none;
+    vertical-align: middle;
+    display: block;
+    width: 54px;
+    height: 19px;
+    line-height: 15px;
+    text-align: center;
+    background: #1bff00;
+    font-size: 48px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: #888;
+}
+
+#mocha .test {
+    margin-left: 15px;
+    overflow: hidden;
+    min-width: 300px;
+}
+
+#mocha-stats {
+    position: unset;
+    top: auto;
+    right: auto;
+}
